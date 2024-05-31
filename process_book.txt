@@ -1,0 +1,53 @@
+Date of entry: 30/5
+What I’ve worked on: Cloning my respository to github
+What problems I encountered: the https method doesnt seem to work, so i used ssh instead
+What I learned: how to create a key for ssh in github
+Which resources did I use: github
+
+Date of entry: 30/5
+What I’ve worked on: Pulling the 100 book titles from The Guardian
+What problems I encountered: Some items that are not book titles were in the output
+What I learned: I specified that '100-best-novel' should be included in the href. 
+Which resources did I use: n/a
+
+Date of entry: 30/5
+What I’ve worked on: Getting the individual books' url from goodreads
+What problems I encountered: Using the request module it keeps returning only a random length html comment
+What I learned: I used selenium to generate the webpage first then scrape it
+Which resources did I use: Selenium
+
+Date of entry: 30/5
+What I’ve worked on: Using multiprocess to retrieve the html content
+What problems I encountered: goodreads temporarily blocking my ip
+What I learned: I used my mobile phone's data 
+Which resources did I use: n/a
+
+Date of entry: 30/5
+What I’ve worked on: Retrieving the goodreads page from with the scraped url
+What problems I encountered: Some pages does not correspond to the book title in record. Turns out the top result of search does not always give what I want. 
+What I learned: Search pages do not always return the result you want 
+Which resources did I use: n/a
+
+Date of entry: 30/5
+What I’ve worked on: Using spacy to tokenize texts
+What problems I encountered: n/a
+What I learned: How to tokenize texts and use the spacy pipelined packages
+Which resources did I use: spacy
+
+Date of entry: 30/5
+What I’ve worked on: Calculating the tf, idf scores
+What problems I encountered: n/a
+What I learned: The principal behind tf, idf scores
+Which resources did I use: spacy
+
+Date of entry: 30/5
+What I’ve worked on: getting the top 15 tags for each book
+What problems I encountered: dictionary is probably not the most optimal data structure for this task
+What I learned: I turned the dictionary into dataframes
+Which resources did I use: pandas
+
+Date of entry: 30/5
+What I’ve worked on: Plotting the top 15 tags as well as the top tags with the highest reviews
+What problems I encountered: the x-labels are all overlapping each other
+What I learned: Set xticks and rotate the labels by 90 degress.
+Which resources did I use: matplotlib and seaborn
