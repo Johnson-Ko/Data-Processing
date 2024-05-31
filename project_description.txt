@@ -1,0 +1,32 @@
+The project is about finding the top 15 important words that 
+characterises the book. 
+
+The additional question is which keyword is associated 
+with the highest ratings.
+
+The books are from the top 100 books from a list created by the 
+Guardians, and for the summaries I used goodreads.
+
+The project outline is as follows:
+
+1. Create a nested dictinoary which links the book title to every
+data we need later on e.g. author, url, summary, rating etc.
+
+2. Scrape the Guardian's website for the list of top 100 books
+
+3. Since goodreads have a unique id for each book, we need to 
+scrape the search page for the book to find the book's unqiue entry.
+For this, we first scrape the searchpage which has a consistent 
+url format which I can easily create with a for-loop.
+
+4. Scrape the html of the search_result page to get the url of the book,
+
+5. Scrape the goodreads html for summaries and ratings
+of the book with the given url.
+
+6. Use spacy to toeknize the summaries
+
+7. Calculate tf-idf scores and store them in the big nested dictionary.
+
+8. Consolidate all data and plot the answers to our research questions.
+
